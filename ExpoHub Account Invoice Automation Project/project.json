@@ -1,0 +1,64 @@
+{
+  "name": "ExpoHub Account Invoice Automation Project",
+  "projectId": "440483d9-ec60-4c1d-acd0-eeb2b385f15c",
+  "description": "Processo em Branco",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.AppleNumbers.Activities": "[1.0.2]",
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.36.0]",
+    "UiPath.GSuite.Activities": "[3.5.11]",
+    "UiPath.IntelligentOCR.Activities": "[6.27.0]",
+    "UiPath.MicrosoftOffice365.Activities": "[3.5.10]",
+    "UiPath.OmniPage.Activities": "[1.21.0]",
+    "UiPath.System.Activities": "[25.10.3]",
+    "UiPath.UIAutomation.Activities": "[25.10.21]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "26.0.182.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "28c199bc-4b65-4248-a448-cb5c3f151fe9",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
